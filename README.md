@@ -50,10 +50,9 @@ Linux: python3 -m dicomhandling T1_3D_TFE - 301
 
 #### 2. Or Run Docker 🐳
 ```
-docker build . --tag img_dicomhandling:latest &&
-docker rm -f dicomhandling &&
-docker run -d  --name dicomhandling  
-img_dicomhandling:latest &&
+docker build . --tag img_dicomhandling:latest 
+docker rm -f dicomhandling 
+docker run -d  --name dicomhandling img_dicomhandling:latest 
 ```
 <br />
 
