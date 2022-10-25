@@ -42,6 +42,7 @@ Linux: $ pip3 install -r requirements.txt
 ## 🔨 Installation and Running
    1. To run the code
         Windows: `python -m dicomhandling T1_3D_TFE - 301`
+        <br>
         Linux: `python3 -m dicomhandling T1_3D_TFE - 301`
 <br />
 
@@ -51,7 +52,7 @@ Linux: $ pip3 install -r requirements.txt
 ```
 $ docker build . --tag img_dicomhandling:latest &&
 $ docker rm -f dicomhandling &&
-$ docker run -d  -p 80:80 --name dicomhandling  
+$ docker run -d  --name dicomhandling  
 img_dicomhandling:latest &&
 ```
 <br />
