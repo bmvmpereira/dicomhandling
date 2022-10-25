@@ -28,7 +28,8 @@ Dicom files contain multitudes of data. Some of that is image data. This project
 #### Copy or rename the file
 
 ```
-$ pip install requirements.txt
+Windows: $ pip install -r requirements.txt
+Lunix: $ pip3 install -r requirements.txt
 ```
 
 <br />
@@ -40,8 +41,8 @@ $ pip install requirements.txt
 
 ## 🔨 Installation and Running
    1. To run the code
-        `python3 -m dicomhandling input_folder`
-        
+        Windows: `python -m dicomhandling T1_3D_TFE - 301`
+        Linux: `python3 -m dicomhandling T1_3D_TFE - 301`
 <br />
 
 ---
