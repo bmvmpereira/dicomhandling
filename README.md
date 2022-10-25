@@ -28,8 +28,8 @@ Dicom files contain multitudes of data. Some of that is image data. This project
 #### Copy and run
 
 ```
-Windows: $ pip install -r requirements.txt
-Linux: $ pip3 install -r requirements.txt
+Windows: pip install -r requirements.txt
+Linux: pip3 install -r requirements.txt
 ```
 
 <br />
